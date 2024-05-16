@@ -1,63 +1,48 @@
 
-.nav {
-    position: absolute; 
-    top: 20px; 
-    left: 550px; 
-    
-}
-.productos{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .Registro{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-family: Georgia, serif;
+    background-color: #cfe2f3;
+
+}
+.card-body.contacto{
+
+    background-color: #feffff;
+
+}
+
+.Productos{
+    font-family: Georgia, serif;
+    background-color: #cfe2f3;
+}
+.iniciosesion{
+    font-family: Georgia, serif;
+    background-color: #cfe2f3;
 }
 .carrito{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, serif;
+    background-color: #cfe2f3;
 }
-.btn-iniciarsesion{
 
-    text-align: center;
-
-}
-.btn-registrosesion{
-    text-align: center;
-    background-color: rgb(27, 167, 209);
-
-}
-.btn-iniciosesion{
-    
-    background-color: rgb(27, 167, 209);
-
-}
 .index{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, serif;
+    
+    background-color: #cfe2f3;
 }
+
+  
 .contacto{
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.btn-registro{
+    font-family: Georgia, serif;
+    background-color: #cfe2f3;
     
-        top: 50px; 
-        right: 500px;    
+}
 
-}
-.btn-contacto{
-    
-    background-color: rgb(27, 167, 209);
-    
-}
 
 .titulo{
     
     text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.card-body{
-   
-    border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, serif;
 }
 
 .carousel {

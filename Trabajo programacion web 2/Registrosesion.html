@@ -8,78 +8,77 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body class="Registro">
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="https://th.bing.com/th/id/OIG1.9Wi.macOGE_eA_SvNOI2?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn"  alt="Logo" width="70"
-          height="50" class="imagenproducto">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://th.bing.com/th/id/OIG1.9Wi.macOGE_eA_SvNOI2?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn" alt="Bootstrap" width="70" height="50">
           ELECTROSHOCK
-      </a>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Productos.html">Productos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-contacto" href="Contacto.html">Contactanos</a>
-        </li>
-      </ul>
-      <br>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Contacto.html">Contactanos</a>
+            </li>
+          </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
-        <a href="Carrito.html" class="ms-2">
-          <img src="https://cdn.icon-icons.com/icons2/933/PNG/512/shopping-cart_icon-icons.com_72552.png" alt="Carrito de compras" width="50" height="50">
-        
-      </a>
+          </form>
+          <a href="Carrito.html" class="ms-2">
+            <img src="https://cdn.icon-icons.com/icons2/933/PNG/512/shopping-cart_icon-icons.com_72552.png" alt="Carrito de compras" width="50" height="50">
+          
+        </a>
         </div>
-      </nav>
-  </nav>
+      </div>
+    </nav>
     <div class="container w-50">
-      <h1 class="text-center titulo">REGISTRESE PARA OBTENER BENEFICIOS! </h1>
+      <h1 class="text-center titulo">¡REGISTRESE PARA OBTENER BENEFICIOS! </h1>
       <br>
+      <div class="container">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body registro">
             <div class="row">
               <div class="col">
-                <div class="mb-2">
-                  <label for="formGroupExampleInput2" class="form-label mr-2">Correo Electronico:</label>
-                  <p>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Su respuesta">
-                </p>
+                <div class="mb-4">
+                  <label for="formGroupExampleInput2" class="form-label mr-2">Nombre:</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Tu respuesta">
+                </div>
+              </div>
               <div class="col">
                 <div class="mb-4">
-                  <label for="formGroupExampleInput3" class="form-label mr-2">Contraseña:</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Su respuesta">
-                  <br>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      Comprobar
-                    </label>
-                  </div>
+                  <label for="formGroupExampleInput3" class="form-label mr-2">Apellido:</label>
+                  <input type="text" class="form-control" id="apellido" placeholder="Tu respuesta">
                 </div>
-                <div class="center button">
-            <button type="button" class="btn btn-contacto">Registrarse</button>
-          </div>
-          <h6 class="text-center titulo">¿Ya tienes una cuenta? </h6>
-        </div>
-        <div class="container-fluid"style="text-align: center;">
-        <a href="iniciosesion.html" class="btn btn-primary btn-iniciarsesion">Iniciar Sesion</a>
               </div>
-            </form>
-
-
-
-
+              <div class="mb-4">
+                <label for="formGroupExampleInput3" class="form-label">Correo:</label>
+                <input type="text" class="form-control" id="correo" placeholder="Tu respuesta">
+              </div>
+            </div>
+            <div class="mb-4">
+              <label for="formGroupExampleInput4" class="form-label">Contraseña:</label>
+              <input type="text" class="form-control" id="contraseña" placeholder="Tu respuesta">
+            </div>
+            <button onclick="ValidarRegistro()" id="Registrarse" class="btn btn-primary" type="button">Registrarse</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="btnmsj.js"></script>
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+ 
+  </body>
 </html>
